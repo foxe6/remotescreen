@@ -1,4 +1,4 @@
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __keywords__ = ["remote screen share capture"]
 
 
@@ -10,6 +10,5 @@ __keywords__ = ["remote screen share capture"]
 #     os._exit(1)
 
 
-from .client import *
-from .server import *
+from .core import *
 
